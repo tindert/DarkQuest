@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class ChangeColorOfImage : MonoBehaviour
 {
+	public PositionChecker positionChecker;
+	
 	public Image image;
 	public Color targetColor = Color.red;
 	public float duration = 2f;
@@ -14,6 +16,8 @@ public class ChangeColorOfImage : MonoBehaviour
 
 	private void Update()
 	{
+		t = positionChecker.variable;
+		
 		//t += Time.deltaTime / duration; // Increment the interpolation progress based on time
 
 		// Interpolate between white and red based on the t value
