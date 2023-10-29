@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mFloor_8
+  m_Name: textured-aluminum_albedo 2
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-  - _METALLICGLOSSMAP
   - _NORMALMAP
   - _PARALLAXMAP
   m_InvalidKeywords: []
@@ -24,7 +23,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3a81f5e1c1171104dad88a661d7dcc6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: d7e03cc57b06ae94daed79d2584fc32d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -41,22 +40,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 25, y: 25}
+        m_Scale: {x: 9, y: 9}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 22a954ff53ad48f468299267f1d5e54a, type: 3}
-        m_Scale: {x: 25, y: 25}
+        m_Texture: {fileID: 2800000, guid: 434ba4d1b2092d54a97e8fcb8eccefeb, type: 3}
+        m_Scale: {x: 9, y: 9}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 20d5abc08baf26e429ed73d5540ee22e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: e68b3f91f9d318145866208cca42e748, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3adf5a9599836cf40ad4f7d03e4a597e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 6cd5be412c69750408b62cea8a43e290, type: 3}
+        m_Texture: {fileID: 2800000, guid: f261bfcc3390a8345b28fd1aeaeba190, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -66,9 +65,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.59
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.86
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
